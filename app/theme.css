@@ -1,0 +1,91 @@
+:root {
+  --c-secondary-fixed: 215 226 255;
+  --c-tertiary-container: 115 72 0;
+  --c-on-secondary: 255 255 255;
+  --c-primary: 39 65 2;
+  --c-on-tertiary-fixed: 42 23 0;
+  --c-primary-container: 61 89 25;
+  --c-inverse-on-surface: 240 240 243;
+  --c-secondary-container: 176 202 254;
+  --c-surface-dim: 218 218 220;
+  --c-tertiary-fixed: 255 221 183;
+  --c-on-surface: 26 28 30;
+  --c-tertiary: 84 51 0;
+  --c-on-secondary-container: 59 84 130;
+  --c-surface-variant: 226 226 229;
+  --c-on-tertiary-fixed-variant: 101 62 0;
+  --c-on-primary-fixed: 16 32 0;
+  --c-error-container: 255 218 214;
+  --c-surface-container-highest: 226 226 229;
+  --c-surface-container-lowest: 255 255 255;
+  --c-on-tertiary-container: 255 182 85;
+  --c-outline: 116 121 107;
+  --c-on-primary-container: 173 207 129;
+  --c-primary-fixed-dim: 175 210 131;
+  --c-outline-variant: 196 200 184;
+  --c-background: 249 249 252;
+  --c-surface-container-high: 232 232 234;
+  --c-on-tertiary: 255 255 255;
+  --c-on-background: 26 28 30;
+  --c-on-error: 255 255 255;
+  --c-on-error-container: 147 0 10;
+  --c-surface-tint: 74 103 37;
+  --c-surface-container: 238 238 240;
+  --c-surface-bright: 249 249 252;
+  --c-inverse-surface: 47 49 51;
+  --c-on-secondary-fixed: 0 27 63;
+  --c-on-primary: 255 255 255;
+  --c-surface-container-low: 243 243 246;
+  --c-error: 186 26 26;
+  --c-tertiary-fixed-dim: 255 185 93;
+  --c-secondary: 69 94 140;
+  --c-inverse-primary: 175 210 131;
+  --c-surface: 249 249 252;
+  --c-on-surface-variant: 68 72 60;
+  --c-on-primary-fixed-variant: 51 78 15;
+  --c-secondary-fixed-dim: 173 199 251;
+  --c-on-secondary-fixed-variant: 44 71 115;
+  --c-primary-fixed: 203 238 157;
+  --c-navy-brand: 0 34 77;
+  --c-forest-brand: 61 89 25;
+}
+
+.theme-mono {
+  --c-secondary-fixed: 226 226 229;
+  --c-tertiary-container: 68 71 78;
+  --c-primary: 0 0 0;
+  --c-on-tertiary-fixed: 0 0 0;
+  --c-primary-container: 26 28 30;
+  --c-secondary-container: 222 226 235;
+  --c-tertiary-fixed: 226 226 229;
+  --c-tertiary: 26 28 30;
+  --c-on-secondary-container: 68 71 78;
+  --c-on-tertiary-fixed-variant: 68 71 78;
+  --c-on-primary-fixed: 0 0 0;
+  --c-error-container: 249 222 220;
+  --c-on-tertiary-container: 255 255 255;
+  --c-outline: 116 119 127;
+  --c-on-primary-container: 255 255 255;
+  --c-primary-fixed-dim: 68 71 78;
+  --c-outline-variant: 196 199 207;
+  --c-background: 255 255 255;
+  --c-on-error-container: 65 0 2;
+  --c-surface-tint: 0 0 0;
+  --c-on-secondary-fixed: 0 0 0;
+  --c-error: 179 38 30;
+  --c-tertiary-fixed-dim: 196 199 207;
+  --c-secondary: 68 71 78;
+  --c-inverse-primary: 255 255 255;
+  --c-surface: 255 255 255;
+  --c-on-surface-variant: 68 71 78;
+  --c-on-primary-fixed-variant: 68 71 78;
+  --c-secondary-fixed-dim: 196 199 207;
+  --c-on-secondary-fixed-variant: 68 71 78;
+  --c-primary-fixed: 226 226 229;
+  --c-navy-brand: 0 0 0;
+  --c-forest-brand: 26 28 30;
+}
+
+.theme-board {
+  --c-primary: 61 89 25;
+}
