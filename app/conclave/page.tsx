@@ -13,7 +13,7 @@ export default function Page() {
         <section className="pt-24 pb-16 px-container-padding max-w-container-max mx-auto">
           <div className="mb-4">
             <span className="mono-label">
-              CHEST26 / CAPITAL FOR RESILIENCE, EQUITY AND SUSTAINABLE
+              CREST'26 / CAPITAL FOR RESILIENCE, EQUITY AND SUSTAINABLE
               TRANSITION
             </span>
           </div>
@@ -387,7 +387,7 @@ export default function Page() {
               <a className="hover:text-white transition-colors" href="#">
                 Partnership enquiries
               </a>
-              <span className="mt-4">CHEST26 / First edition</span>
+              <span className="mt-4">CREST'26 / First edition</span>
             </div>
           </div>
         </section>
