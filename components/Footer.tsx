@@ -110,24 +110,10 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="pt-10 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="pt-10 border-t border-outline-variant flex flex-col md:flex-row justify-center md:justify-start items-center gap-6">
           <p className="font-body-md text-on-surface-variant">
             © 2026 Ashoka Impact Finance Club. All rights reserved.
           </p>
-          <div className="flex gap-8">
-            <a
-              className="font-label-lg text-on-surface-variant hover:text-primary transition-colors"
-              href="#"
-            >
-              Privacy Policy
-            </a>
-            <a
-              className="font-label-lg text-on-surface-variant hover:text-primary transition-colors"
-              href="#"
-            >
-              Terms of Service
-            </a>
-          </div>
         </div>
       </div>
     </footer>
