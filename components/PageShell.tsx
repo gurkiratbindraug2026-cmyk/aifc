@@ -8,7 +8,7 @@ type Props = {
   className?: string;
   /** "mono" is the black/white home page palette; "board" tweaks the primary colour. */
   theme?: "mono" | "board";
-  /** Used for page-scoped CSS hooks such as `.page-seminars`. */
+  /** Used for page-scoped CSS hooks such as `.page-<name>`. */
   name?: string;
 };
 

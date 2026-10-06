@@ -58,16 +58,6 @@ body {
   border-bottom: 2px solid rgb(var(--c-navy-brand));
 }
 
-/* seminars */
-.page-seminars .reveal-on-scroll {
-  transition-duration: 1s;
-}
-
-.page-seminars .material-symbols-outlined {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 /* the_review */
 .fade-in {
   animation: fadeIn 0.8s ease-out forwards;

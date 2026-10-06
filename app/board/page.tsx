@@ -356,28 +356,19 @@ export default function Page() {
             <h3 className="serif-text text-5xl mb-20 tracking-wide font-light">
               Past Presidents
             </h3>
-            <div className="space-y-16">
-              <div className="grid grid-cols-1 md:grid-cols-3 items-center text-lg serif-text opacity-80">
-                <div className="mb-4 md:mb-0 font-bold tracking-widest">
-                  2025
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 text-lg serif-text opacity-80">
+              {[
+                { year: "2025", names: ["Cassie Liu", "Joey Perriello"] },
+                { year: "2026", names: ["Sarah Lao", "Sreetej Digumarthi"] },
+                { year: "2023", names: ["Asher Noel", "Patrick Rak"] },
+              ].map(({ year, names }) => (
+                <div key={year} className="flex flex-col items-center gap-2">
+                  <div className="mb-2 font-bold tracking-widest">{year}</div>
+                  {names.map((n) => (
+                    <div key={n}>{n}</div>
+                  ))}
                 </div>
-                <div className="mb-2 md:mb-0">Cassie Liu</div>
-                <div className="">Joey Perriello</div>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 items-center text-lg serif-text opacity-80">
-                <div className="mb-4 md:mb-0 font-bold tracking-widest">
-                  2026
-                </div>
-                <div className="mb-2 md:mb-0">Sarah Lao</div>
-                <div className="">Sreetej Digumarthi</div>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 items-center text-lg serif-text opacity-80">
-                <div className="mb-4 md:mb-0 font-bold tracking-widest">
-                  2023
-                </div>
-                <div className="mb-2 md:mb-0">Asher Noel</div>
-                <div className="">Patrick Rak</div>
-              </div>
+              ))}
             </div>
           </div>
         </section>

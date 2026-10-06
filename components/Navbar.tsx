@@ -10,7 +10,6 @@ const links = [
   { href: "/advisory_projects", label: "Advisory Projects" },
   { href: "/conclave", label: "Conclave" },
   { href: "/the_review", label: "The Review" },
-  { href: "/seminars", label: "Seminars" },
 ];
 
 const teamLinks = [
